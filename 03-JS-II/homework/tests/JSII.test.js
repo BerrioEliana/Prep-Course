@@ -1,21 +1,5 @@
 /* eslint-disable no-undef */
-const {
-  obtenerMayor,
-  mayoriaDeEdad,
-  conection,
-  saludo,
-  colors,
-  esDiezOCinco,
-  estaEnRango,
-  esEntero,
-  fizzBuzz,
-  operadoresLogicos,
-  esPrimo,
-  esVerdadero,
-  tablaDelSeis,
-  tieneTresDigitos,
-  doWhile
-} = require('../homework');
+import { obtenerMayor, mayoriaDeEdad, conection, saludo, colors, esDiezOCinco, estaEnRango, esEntero, fizzBuzz, operadoresLogicos, esPrimo, esVerdadero, tablaDelSeis, tieneTresDigitos, doWhile } from '../homework';
 
 
 describe('obtenerMayor(x, y)', function() {
